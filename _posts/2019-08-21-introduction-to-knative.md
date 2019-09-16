@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Serverless using Knative"
+title: "How to Demo Serverless using Knative"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
@@ -296,7 +296,7 @@ bash 17-perf-test.sh
 
 Notice that the number of pods has increased from zero to many. 
 
-![/assets/img/2019-08-21-introduction-to-knative/autoscale.png-cards.png](/assets/img/2019-08-21-introduction-to-knative/autoscale.png-cards.png)
+![/assets/img/2019-08-21-introduction-to-knative/autoscale.png](/assets/img/2019-08-21-introduction-to-knative/autoscale.png)
 - Now delete this service so we can go on to the next demo.
 
 ```
