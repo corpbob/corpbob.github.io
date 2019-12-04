@@ -4,7 +4,7 @@ title: "Introduction to Serverless using Knative"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-image: 2019-08-21-introduction-to-knative/ExampleModel.png-cards.png
+image: 2019-08-21-introduction-to-knative/ExampleModel.png-cards2.png
 ---
 
 # Assumptions
