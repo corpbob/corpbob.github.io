@@ -4,7 +4,7 @@ title: "How to Demo Serverless using Knative"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-image: 2019-08-21-introduction-to-knative/serverless3.png
+image: 2019-08-21-introduction-to-knative/serverless3_v2.png
 ---
 
 # Assumptions
