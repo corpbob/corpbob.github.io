@@ -58,6 +58,9 @@ curl -LO https://github.com/knative/serving/releases/download/v0.5.0/istio-crds.
 curl -LO https://github.com/knative/serving/releases/download/v0.5.0/istio.yaml
 
 sed -i 's/LoadBalancer/NodePort/g' istio.yaml
+oc new-project istio-system
+oc adm policy add-scc-to-user privileged -z default 
+oc adm policy add-scc-to-user anyuid -z default
 oc apply -f istio-crds.yaml
 oc apply -f istio.yaml
 ```
@@ -66,6 +69,8 @@ oc apply -f istio.yaml
 
 ```
 curl -LO https://github.com/knative/serving/releases/download/v0.6.0/serving.yaml
+oc new-project knative-serving
+oc adm policy add-cluster-role-to-user cluster-admin -z controller -n knative-serving
 oc apply -f serving.yaml
 ```
 
