@@ -144,6 +144,11 @@ oc create route passthrough keycloak --hostname=$DOMAIN --service=keycloak --por
         - email
 ```
 *Note* Take note where we specify the crt file in the above configuration.
+*Note* If unsure about the urls, you can get it from the system by loading:
+
+```
+https://$DOMAIN/auth/realms/openshift/.well-known/openid-configuration
+```
 
 - restart the masters
 
